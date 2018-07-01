@@ -1,0 +1,42 @@
+.container-padding-tb{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-padding-lr{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.white {
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+/*----------------------SECTION-1----------------------*/
+
+.home {
+    height: 100vh;
+    background-image: url("../img/bg/strawberry.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+
+.home-flex{
+    height: 90vh;
+}
+
+/*----------------------SECTION-2----------------------*/
+
+.about {
+    background: #00bbbb;
+}
+
+.img-shadow{
+    box-shadow: 10px 10px 5px grey;
+}
+
