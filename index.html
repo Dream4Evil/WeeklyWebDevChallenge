@@ -10,7 +10,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -21,52 +21,239 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+    <!-- Raleway font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet">
+
 </head>
 
 <body>
     <!--    /*----------------------SECTION-1----------------------*/-->
     <main>
         <div class="home">
-            <div class="row">
-                <div class="col-md-4 offset-md-1 
-                            flex home-flex flex-md-column justify-content-center">
-                    <section>
-                        <header>
-                            <h1>Fresh Life</h1>
-                        </header>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    </section>
+            <div class=" container">
+                <div class="row">
+                    <div class="col-sm-12 offset-md-1 col-md-4
+                            flex h_100vh flex-column justify-content-center">
+                        <section>
+                            <header>
+                                <h1>Fresh Life</h1>
+                            </header>
+                            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <button type="button" class="btn">GET FREE NOW</button>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
     <!--    /*----------------------SECTION-2----------------------*/-->
     <div class="about">
-        <div class="row 
-                   container-padding-tb ">
-            <div class="offset-md-1 col-md-5
-                        flex flex-md-column justify-content-center">
-                <img class="img-fluid" src="../img/bg/raspberry.png">
-                <!--                //FUTURE: zrobić cienie filiżanki-->
-                <!--                TODO: poprawić błąd z rozciąganiem obrazu przy małych szerokościach-->
-            </div>
-            <div class="offset-md-1 col-md-4 
-                        flex flex-md-column justify-content-center
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 offset-md-1 col-md-5
+                    flex flex-column justify-content-center">
+                    <img src="img/raspberry.png">
+                    <!--                //FUTURE: zrobić cienie filiżanki-->
+                    <!--                TODO: poprawić błąd z rozciąganiem obrazu przy małych szerokościach-->
+                </div>
+                <div class="col-sm-12 offset-md-1 col-md-4 
+                        flex flex-column justify-content-center
                         white">
-                <section>
-                    <header>
-                        <h2>About Us</h2>
-                    </header>
-                    <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                    <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-                </section>
+                    <section>
+                        <header>
+                            <h2>About Us</h2>
+                        </header>
+                        <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                        <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    /*----------------------SECTION-3----------------------*/-->
+    <div class="services">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 offset-md-1 col-md-4
+                    flex-column justify-content-center">
+
+                    <div>
+                        Online Shopping
+                        <img src="img/icons/shop.png">
+                    </div>
+
+                    <div>
+                        Quality Product
+                        <img src="img/icons/product.png">
+                    </div>
+
+                    <div>
+                        Domestic & International Delivery
+                        <img src="img/icons/world.png">
+                    </div>
+
+                    <div>
+                        Well Organized
+                        <img src="img/icons/carrot.png">
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 offset-md-1 col-md-5 
+                    d-flex flex-column justify-content-center
+                    white">
+
+                    <section>
+                        <header>
+                            <h2>Our Services</h2>
+                        </header>
+                        <img src="img/tomato.png">
+                    </section>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--    /*----------------------SECTION-4----------------------*/-->
+
+    <div id="gallery">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 offset-md-3 col-md-6">
+
+                    <section class="text-center">
+                        <header>
+                            <h2>Gallery</h2>
+                        </header>
+                        <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </section>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-8">
+                        <img src="img/picture1.png">
+                    </div>
+
+                    <div class="col-sm-12 col-md-4">
+                        <img src="img/picture2.png">
+                        <img src="img/picture3.png">
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/picture4.png">
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <img src="img/picture5.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <button type="button" class="btn btn_c_gallery margin-top-30">View more</button>
+                </div>
             </div>
 
         </div>
     </div>
 
+    <!--    /*----------------------SECTION-5----------------------*/-->
 
+    <div id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <section>
+                        <header>
+                            <h2>Subcribe To Us</h2>
+                        </header>
+                        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <input type="email" placeholder="Your email address...">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <button type="button" class="btn btn_c_subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-3 col-md-6 col-sm-12 text-center white">
+                    <section>
+                        <header>
+                            <h2>Blog</h2>
+                        </header>
+                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="row">
+               <div class="col-md-4 col-sm-12">
+                <img src="img/green_smoothies.png">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                <img src="img/green_soup.png">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                <img src="img/pesticides_n_food.png">    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="offset-md-4 col-md-4 col-sm-12 text-center">
+                    <section>
+                        <header>
+                            <h2>Contact</h2>
+                        </header>
+                        <p>For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+                    </section>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <input type="text" placeholder="Your name...">
+                    <input type="email" placeholder="Your email...">
+                    <input type="tel" placeholder="Your phone number">
+                    <input id="message" type="text" placeholder="Your message">
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <p><b>ADDRESS</b><br> 123 City name, Street, City, Country</p>
+                    <p><b>EMAIL</b><br> cahee@domain.com</p>
+                    <p><b>PHONE</b><br> +012 345 6789</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
