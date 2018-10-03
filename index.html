@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Weekly WebDev Challenge 2</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -24,13 +24,60 @@
     <!-- Raleway font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
 </head>
 
 <body>
+
+    <!--    /*----------------------SECTION-NAV----------------------*/-->
+
+    <nav class="navbar-light bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="#">
+                        <img src="img/logo/logo.png">
+                    </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!--    /*----------------------SECTION-1----------------------*/-->
     <main>
         <div class="home">
-            <div class=" container">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-12 offset-md-1 col-md-4
                             flex h_100vh flex-column justify-content-center">
@@ -77,38 +124,52 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-sm-12 offset-md-1 col-md-4
-                    flex-column justify-content-center">
+                <div class="col-sm-12 col-md-12 offset-lg-1 col-lg-4">
 
-                    <div>
-                        Online Shopping
-                        <img src="img/icons/shop.png">
-                    </div>
+                    <a href="#">
+                        <div class="service_button">
+                            <p class="float-left">Online Shopping</p>
+                            <div class="img_container">
+                                <img class="img1 float-right" src="img/icons/shop.png">
+                            </div>
+                        </div>
+                    </a>
 
-                    <div>
-                        Quality Product
-                        <img src="img/icons/product.png">
+                    <a href="#">
+                    <div class="service_button">
+                        <p class="float-left">Quality Product</p>
+                        <div class="img_container">
+                            <img class="img2 float-right" src="img/icons/product.png">
+                        </div>
                     </div>
+                    </a>
 
-                    <div>
-                        Domestic & International Delivery
-                        <img src="img/icons/world.png">
+                    <a href="#">
+                    <div class="service_button">
+                        <p class="float-left p2">Domestic & International Delivery</p>
+                        <div class="img_container">
+                            <img class="img3 float-right" src="img/icons/world.png">
+                        </div>
                     </div>
+                    </a>
 
-                    <div>
-                        Well Organized
-                        <img src="img/icons/carrot.png">
+                    <a href="#">
+                    <div class="service_button">
+                        <p class="float-left">Well Organized</p>
+                        <div class="img_container">
+                            <img class="img4 float-right" src="img/icons/carrot.png">
+                        </div>
                     </div>
+                    </a>
 
                 </div>
 
                 <div class="col-sm-12 offset-md-1 col-md-5 
-                    d-flex flex-column justify-content-center
                     white">
 
                     <section>
-                        <header>
-                            <h2>Our Services</h2>
+                        <header class="d-flex justify-content-center ">
+                            <h2> Our Services</h2>
                         </header>
                         <img src="img/tomato.png">
                     </section>
@@ -116,6 +177,9 @@
                 </div>
 
             </div>
+
+
+
         </div>
     </div>
 
@@ -176,7 +240,7 @@
     <div id="subscribe">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <section>
                         <header>
                             <h2>Subcribe To Us</h2>
@@ -186,10 +250,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12">
                     <input type="email" placeholder="Your email address...">
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col_button">
                     <button type="button" class="btn btn_c_subscribe">Subscribe</button>
                 </div>
             </div>
@@ -208,19 +272,19 @@
                     </section>
                 </div>
             </div>
-            
+
             <div class="row">
-               <div class="col-md-4 col-sm-12">
-                <img src="img/green_smoothies.png">
+                <div class="col-md-4 col-sm-12">
+                    <img src="img/green_smoothies.png">
                 </div>
                 <div class="col-md-4 col-sm-12">
-                <img src="img/green_soup.png">
+                    <img src="img/green_soup.png">
                 </div>
                 <div class="col-md-4 col-sm-12">
-                <img src="img/pesticides_n_food.png">    
+                    <img src="img/pesticides_n_food.png">
                 </div>
             </div>
-            
+
         </div>
     </div>
 
@@ -236,13 +300,13 @@
                     </section>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <input type="text" placeholder="Your name...">
                     <input type="email" placeholder="Your email...">
-                    <input type="tel" placeholder="Your phone number">
-                    <input id="message" type="text" placeholder="Your message">
+                    <input type="tel" placeholder="Your phone number...">
+                    <textarea id="message" placeholder="Your message"></textarea>
                 </div>
 
                 <div class="col-md-6 col-sm-12">
@@ -254,6 +318,25 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <div id="foot">
+            <div class="container padding-top-bot-0">
+                <div class="row text-center">
+                    <div class="col-md-4 col-sm-12">
+                        <p>© 2015 Company. All right reserved.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <img scr="img/logo/logo_small.png">
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <p>Made with love by Auskteez</p>
+                        <p>Encoded by Ernest Nowak</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
